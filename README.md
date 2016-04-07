@@ -219,7 +219,7 @@ var steps = this.refs.joyride.parseSteps({
 
 
 ## Tooltip / Step Syntax
-There are a few usable options but you can pass custom parameters.
+There are a few usable options but you can pass extra parameters.
 
 - `title`: The title of the tooltip
 - `text`: The tooltip's body text **(required)**
@@ -265,7 +265,7 @@ Example:
 		},
 		...
 	},
-    // custom params...
+    // extra params...
     name: 'my-first-step',
     parent: 'MyComponentName'
 }
@@ -312,4 +312,3 @@ Copyright © 2015 Gil Barbara - [MIT License](LICENSE)
 ---
 
 Inspired by [react-tour-guide](https://github.com/jakemmarsh/react-tour-guide) and [jquery joyride tour](http://zurb.com/playground/jquery-joyride-feature-tour-plugin)
-  

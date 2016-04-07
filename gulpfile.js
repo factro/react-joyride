@@ -11,7 +11,7 @@ gulp.task('lint', function() {
         .pipe($.eslint({
             useEslintrc: true,
             rules: {
-                "no-console": 2
+                'no-console': 2
             }
         }))
         .pipe($.eslint.format())
